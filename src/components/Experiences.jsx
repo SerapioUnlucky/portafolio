@@ -11,7 +11,7 @@ export const Experiences = () => {
                     <div className='flex flex-col justify-center'>
                         <h1 className="text-center text-xl">{experience.position}</h1>
                         <h3 className="text-center font-semibold">{experience.company}</h3>
-                        <p className="text-center text-gray-600">{experience.period}</p>
+                        <p className="text-center text-gray-400">{experience.period}</p>
                     </div>
 
                     <p className="text-justify">{experience.description}</p>

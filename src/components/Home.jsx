@@ -11,7 +11,7 @@ export const Home = () => {
 
                     <p className="text-2xl text-center font-bold">{home.name} {home.lastName}</p>
                     <p className="text-lg font-bold animate-pulse text-purple-300">{home.race}</p>
-                    <a href={home.cv} target="_blank" className="border-b-2 border-transparent hover:border-purple-300 hover:text-purple-300 transition duration-300 font-bold py-2 px-4">Ver Curriculum</a>
+                    <a href={home.cv} target="_blank" className="border-b-2 border-transparent hover:border-purple-300 hover:text-purple-300 transition duration-300 font-bold py-2 px-4">Descargar CV</a>
 
                 </div>
 

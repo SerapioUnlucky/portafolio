@@ -25,12 +25,12 @@ export const Header = () => {
     }, []);
 
     return (
-        <header className="flex flex-col lg:flex-row justify-around items-center bg-gray-900 p-4">
+        <header className="flex flex-col lg:flex-row justify-around items-center p-4">
 
-            <h1 className="text-6xl text-purple-300 font-serif italic">S</h1>
+            <h1 className="text-6xl text-purple-300 font-serif italic">SJ</h1>
 
             <button className="lg:hidden" onClick={() => setMenuOpen(!menuOpen)}>
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-purple-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
                 </svg>
             </button>

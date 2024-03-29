@@ -7,3 +7,23 @@
     font-size: x-large;
     font-family: 'italic';
 }
+
+body {
+    animation: gradientAnimation 2s linear infinite;
+    background: linear-gradient(to bottom, #374151, #1f2937);
+    background-size: 200% 200%;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
