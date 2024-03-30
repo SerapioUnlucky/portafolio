@@ -27,7 +27,7 @@ export const Header = () => {
     return (
         <header className="flex flex-col lg:flex-row justify-around items-center p-4">
 
-            <h1 className="text-6xl text-purple-300 font-serif italic">SJ</h1>
+            <h1 className="text-6xl text-purple-300 italic">SJ</h1>
 
             <button className="lg:hidden" onClick={() => setMenuOpen(!menuOpen)}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
