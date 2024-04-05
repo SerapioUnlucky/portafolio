@@ -13,8 +13,14 @@ export const projects = [
         type: "tesis"
     },
     {
+        title: "App de lavandería",
+        description: "El proyecto para la asignatura de Ingeniería de Software implica el desarrollo de un sistema de gestión destinado a una lavandería localizada en un condominio. El objetivo primordial radica en adquirir competencia en el stack MERN (MongoDB, Express.js, React.js, y Node.js), con una modificación específica que implica reemplazar React.js por Next.js.",
+        type: "universitario",
+        github: "https://github.com/SerapioUnlucky/lavanderia-app",
+    },
+    {
         title: "Cotizador de criptomonedas",
-        description: "Proyecto de un cotizador de criptomonedas hecho con react, styled components y con la api de cryptocompare.",
+        description: "Proyecto de un cotizador de criptomonedas hecho con React, Styled Components y con la api de cryptocompare.",
         type: "personal",
         link: "https://cotizador-criptos-flax.vercel.app/",
         github: "https://github.com/SerapioUnlucky/cotizador-criptos",
@@ -27,16 +33,30 @@ export const projects = [
         link: "https://gestion-mascotas.vercel.app/"
     },
     {
-        title: "App de lavandería",
-        description: "El proyecto para la asignatura de Ingeniería de Software implica el desarrollo de un sistema de gestión destinado a una lavandería localizada en un condominio. El objetivo primordial radica en adquirir competencia en el stack MERN (MongoDB, Express.js, React.js, y Node.js), con una modificación específica que implica reemplazar React.js por Next.js.",
-        type: "universitario",
-        github: "https://github.com/SerapioUnlucky/lavanderia-app",
-    },
-    {
         title: "Apirest de clientes (Backend)",
-        description: "Proyecto de un crud de clientes realizado en Spring Boot junto con subida de imágenes, paginación y validaciones",
+        description: "Proyecto de un CRUD de clientes realizado en Spring Boot, que incluye subida de imágenes, paginación y validaciones.",
         type: "personal",
         github: "https://github.com/SerapioUnlucky/apirest-springboot",
+    },
+    {
+        title: "customers-app (Frontend)",
+        description: "Proyecto de un CRUD de clientes realizado en Angular 17, que incluye subida de imágenes, paginación y validaciones.",
+        type: "personal",
+        github: "https://github.com/SerapioUnlucky/customers-app"
+    },
+    {
+        title: "Tinder de perritos",
+        description: "Proyecto de la asignatura Taller de Desarrollo Web que consiste en la realización de un Tinder para perritos, utilizando la Dog API y desarrollado con React.",
+        type: "universitario",
+        github: "https://github.com/SerapioUnlucky/tinder-perritos",
+        link: "https://tinder-perritos.vercel.app/"
+    },
+    {
+        title: "Generador de códigos QR",
+        description: "Proyecto que consiste en la generación de un código QR al ingresar una URL, desarrollado con HTML, CSS y JavaScript.",
+        type: "personal",
+        github: "https://github.com/SerapioUnlucky/QR-Generator",
+        link: "https://qr-generator-steel-six.vercel.app/"
     }
 ];
 
