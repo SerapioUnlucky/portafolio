@@ -9,9 +9,7 @@
 }
 
 body {
-    animation: gradientAnimation 2s linear infinite;
-    background: linear-gradient(to bottom, #374151, #1f2937);
-    background-size: 200% 200%;
+    background-color: hsl(220, 7%, 17%);
 }
 
 @keyframes gradientAnimation {

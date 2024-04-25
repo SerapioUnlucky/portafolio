@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 import { Layout } from '../components/Layout'
 import { Home } from '../components/Home'
 import { Skills } from '../components/Skills'
@@ -8,7 +8,7 @@ import { Projects } from '../components/Projects'
 export const Routing = () => {
 
     return (
-        <BrowserRouter>
+        <HashRouter>
 
             <Routes>
 
@@ -24,7 +24,7 @@ export const Routing = () => {
 
             </Routes>
 
-        </BrowserRouter>
+        </HashRouter>
     )
 
 }

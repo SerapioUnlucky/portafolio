@@ -48,8 +48,8 @@ export const projects = [
         title: "Tinder de perritos",
         description: "Proyecto de la asignatura Taller de Desarrollo Web que consiste en la realización de un Tinder para perritos, utilizando la Dog API y desarrollado con React.",
         type: "universitario",
-        github: "https://github.com/SerapioUnlucky/tinder-perritos",
-        link: "https://tinder-perritos.vercel.app/"
+        github: "https://github.com/Benjax14/tinder-perros-query",
+        link: "https://tinder-perros.vercel.app/"
     },
     {
         title: "Generador de códigos QR",
