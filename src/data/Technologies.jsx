@@ -23,7 +23,7 @@ import {
     SiMongoose,
     SiTailwindcss,
     SiSpringboot,
-    SiLaravel,
+    SiTypescript,
     SiMicrosoftsqlserver,
     SiApachemaven,
     SiPostman,
@@ -36,6 +36,11 @@ export const languages = [
         icon: <SiJavascript size={40} />,
         name: "JavaScript",
         documentation: "https://developer.mozilla.org/es/docs/Web/JavaScript"
+    },
+    {
+        icon: <SiTypescript size={40} />,
+        name: "TypeScript",
+        documentation: "https://www.typescriptlang.org/"
     },
     {
         icon: <FaJava size={40} />,
@@ -117,11 +122,6 @@ export const backend = [
         icon: <SiApachemaven size={40} />,
         name: "Maven",
         documentation: "https://maven.apache.org/"
-    },
-    {
-        icon: <SiLaravel size={40} />,
-        name: "Laravel",
-        documentation: "https://laravel.com/"
     },
     {
         icon: <SiComposer size={40} />,

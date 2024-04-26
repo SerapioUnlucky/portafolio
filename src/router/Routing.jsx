@@ -4,6 +4,7 @@ import { Home } from '../components/Home'
 import { Skills } from '../components/Skills'
 import { Experiences } from '../components/Experiences'
 import { Projects } from '../components/Projects'
+import { NotFound } from '../components/NotFound'
 
 export const Routing = () => {
 
@@ -19,6 +20,7 @@ export const Routing = () => {
                     <Route path='skills' element={<Skills />} />
                     <Route path='experiences' element={<Experiences />} />
                     <Route path='projects' element={<Projects />} />
+                    <Route path='*' element={<NotFound />} />
 
                 </Route>
 

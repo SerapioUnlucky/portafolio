@@ -46,7 +46,7 @@ export const projects = [
     },
     {
         title: "Tinder de perritos",
-        description: "Proyecto de la asignatura Taller de Desarrollo Web que consiste en la realización de un Tinder para perritos, utilizando la Dog API y desarrollado con React.",
+        description: "Proyecto de la asignatura Taller de Desarrollo Web que consiste en la creación de un Tinder para perritos utilizando la Dog API. Está desarrollado con React, React Query y Material UI.",
         type: "universitario",
         github: "https://github.com/Benjax14/tinder-perros-query",
         link: "https://tinder-perros.vercel.app/"

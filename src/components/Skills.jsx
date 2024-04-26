@@ -11,7 +11,7 @@ export const Skills = () => {
 
                 <h2 className="text-center border-b-2 border-purple-300 mb-4">Lenguajes de programación</h2>
 
-                <ul className="grid grid-cols-2 lg:grid-cols-3 justify-items-center gap-4">
+                <ul className="grid grid-cols-2 justify-items-center gap-4">
                     {languages.map((language, index) => (
                         <li key={index}>
                             <Tippy content="Ver documentación">
@@ -29,7 +29,7 @@ export const Skills = () => {
 
                 <h2 className="text-center border-b-2 border-purple-300 mb-4">Frontend</h2>
 
-                <ul className="grid grid-cols-2 lg:grid-cols-3 justify-items-center gap-4">
+                <ul className="grid grid-cols-2 justify-items-center gap-4">
                     {frontend.map((frontend, index) => (
                         <li key={index}>
                             <Tippy content="Ver documentación">
@@ -47,7 +47,7 @@ export const Skills = () => {
 
                 <h2 className="text-center border-b-2 border-purple-300 mb-4">Backend</h2>
 
-                <ul className="grid grid-cols-2 lg:grid-cols-3 justify-items-center gap-4">
+                <ul className="grid grid-cols-2 justify-items-center gap-4">
                     {backend.map((backend, index) => (
                         <li key={index}>
                             <Tippy content="Ver documentación">
@@ -65,7 +65,7 @@ export const Skills = () => {
 
                 <h2 className="text-center border-b-2 border-purple-300 mb-4">Bases de datos</h2>
 
-                <ul className="grid grid-cols-2 lg:grid-cols-3 justify-items-center gap-4">
+                <ul className="grid grid-cols-2 justify-items-center gap-4">
                     {databases.map((database, index) => (
                         <li key={index}>
                             <Tippy content="Ver documentación">
@@ -83,7 +83,7 @@ export const Skills = () => {
 
                 <h2 className="text-center border-b-2 border-purple-300 mb-4">Herramientas</h2>
 
-                <ul className="grid grid-cols-2 lg:grid-cols-3 justify-items-center gap-4">
+                <ul className="grid grid-cols-2 justify-items-center gap-4">
                     {tools.map((tool, index) => (
                         <li key={index}>
                             <Tippy content="Ver documentación">
