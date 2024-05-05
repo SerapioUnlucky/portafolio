@@ -3,7 +3,7 @@ import { experiences } from '../data/Experiences';
 export const Experiences = () => {
 
     return (
-        <div className="mx-auto p-4">
+        <div className="max-w-screen-lg mx-auto p-4">
 
             {experiences.map((experience, index) => (
                 <div key={index} className={`grid grid-cols-1 lg:grid-cols-2 gap-4 ${index === 0 ? '' : 'border-t-2 pt-4'} ${index === experiences.length - 1 ? '' : 'border-b-2 pb-4'} border-purple-300`}>

@@ -13,12 +13,6 @@ export const projects = [
         type: "tesis"
     },
     {
-        title: "App de lavandería",
-        description: "El proyecto para la asignatura de Ingeniería de Software implica el desarrollo de un sistema de gestión destinado a una lavandería localizada en un condominio. El objetivo primordial radica en adquirir competencia en el stack MERN (MongoDB, Express.js, React.js, y Node.js), con una modificación específica que implica reemplazar React.js por Next.js.",
-        type: "universitario",
-        github: "https://github.com/SerapioUnlucky/lavanderia-app",
-    },
-    {
         title: "Cotizador de criptomonedas",
         description: "Proyecto de un cotizador de criptomonedas hecho con React, Styled Components y con la api de cryptocompare.",
         type: "personal",

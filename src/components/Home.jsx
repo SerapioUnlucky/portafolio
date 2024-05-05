@@ -3,9 +3,9 @@ import { home } from '../data/Home';
 export const Home = () => {
 
     return (
-        <div className="mx-auto p-4">
+        <div className="flex flex-col gap-6 max-w-screen-lg mx-auto p-4">
 
-            <div className='flex flex-col gap-4 lg:flex-row lg:justify-around lg:items-center'>
+            <div className='flex flex-col gap-6 lg:flex-row lg:justify-around lg:items-center'>
 
                 <div className='flex flex-col items-center'>
 
@@ -46,11 +46,15 @@ export const Home = () => {
 
             </div>
 
-            <h1 className="text-3xl font-bold mb-4 mt-4 text-center lg:text-left">¿Quién soy?</h1>
+            <div>
 
-            <p className="text-left leading-relaxed">
-                {home.bio}
-            </p>
+                <h1 className="text-3xl font-bold mb-4 mt-4 text-center lg:text-left">¿Quién soy?</h1>
+
+                <p className="text-left leading-relaxed">
+                    {home.bio}
+                </p>
+
+            </div>
 
         </div>
 

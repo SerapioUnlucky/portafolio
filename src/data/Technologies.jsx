@@ -8,7 +8,8 @@ import {
     FaGithub,
     FaBootstrap,
     FaJava,
-    FaAngular
+    FaAngular,
+    FaDocker
 } from "react-icons/fa";
 import {
     SiNextdotjs,
@@ -19,7 +20,6 @@ import {
     SiPostgresql,
     SiInsomnia,
     SiVisualstudiocode,
-    SiOracle,
     SiMongoose,
     SiTailwindcss,
     SiSpringboot,
@@ -30,29 +30,6 @@ import {
     SiStyledcomponents,
     SiComposer
 } from "react-icons/si";
-
-export const languages = [
-    {
-        icon: <SiJavascript size={40} />,
-        name: "JavaScript",
-        documentation: "https://developer.mozilla.org/es/docs/Web/JavaScript"
-    },
-    {
-        icon: <SiTypescript size={40} />,
-        name: "TypeScript",
-        documentation: "https://www.typescriptlang.org/"
-    },
-    {
-        icon: <FaJava size={40} />,
-        name: "Java",
-        documentation: "https://www.java.com/es/"
-    },
-    {
-        icon: <FaPhp size={40} />,
-        name: "PHP",
-        documentation: "https://www.php.net/"
-    }
-];
 
 export const frontend = [
     {
@@ -130,6 +107,29 @@ export const backend = [
     }
 ];
 
+export const languages = [
+    {
+        icon: <SiJavascript size={40} />,
+        name: "JavaScript",
+        documentation: "https://developer.mozilla.org/es/docs/Web/JavaScript"
+    },
+    {
+        icon: <SiTypescript size={40} />,
+        name: "TypeScript",
+        documentation: "https://www.typescriptlang.org/"
+    },
+    {
+        icon: <FaJava size={40} />,
+        name: "Java",
+        documentation: "https://www.java.com/es/"
+    },
+    {
+        icon: <FaPhp size={40} />,
+        name: "PHP",
+        documentation: "https://www.php.net/"
+    }
+];
+
 export const databases = [
     {
         icon: <SiMongodb size={40} />,
@@ -145,11 +145,6 @@ export const databases = [
         icon: <SiPostgresql size={40} />,
         name: "PostgreSQL",
         documentation: "https://www.postgresql.org/"
-    },
-    {
-        icon: <SiOracle size={40} />,
-        name: "Oracle SQL",
-        documentation: "https://www.oracle.com/database/"
     },
     {
         icon: <SiMicrosoftsqlserver size={40} />,
@@ -183,5 +178,10 @@ export const tools = [
         icon: <SiVisualstudiocode size={40} />,
         name: "VS Code",
         documentation: "https://code.visualstudio.com/"
+    },
+    {
+        icon: <FaDocker size={40} />,
+        name: "Docker",
+        documentation: "https://www.docker.com/"
     }
 ];
