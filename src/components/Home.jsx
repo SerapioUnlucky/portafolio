@@ -3,9 +3,9 @@ import { home } from '../data/Home';
 export const Home = () => {
 
     return (
-        <div className="flex flex-col gap-6 max-w-screen-lg mx-auto p-4">
+        <div className="flex flex-col gap-6">
 
-            <div className='flex flex-col gap-6 lg:flex-row lg:justify-around lg:items-center'>
+            <div className='flex flex-col gap-6 lg:flex-row lg:justify-around'>
 
                 <div className='flex flex-col items-center'>
 
@@ -34,12 +34,12 @@ export const Home = () => {
 
                     <div className="flex gap-2">
                         {home.githubIcon}
-                        <a href={home.github} target="_blank" className="hover:underline">Ir a perfil de GitHub</a>
+                        <a href={home.github} target="_blank" className="hover:underline">SerapioUnlucky</a>
                     </div>
 
                     <div className="flex gap-2">
                         {home.linkedinIcon}
-                        <a href={home.linkedin} target="_blank" className="hover:underline">Ir a perfil de LinkedIn</a>
+                        <a href={home.linkedin} target="_blank" className="hover:underline">LinkedIn</a>
                     </div>
 
                 </div>

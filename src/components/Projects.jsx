@@ -8,10 +8,10 @@ export const Projects = () => {
 
         <>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 max-w-screen-lg gap-4 mx-auto p-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 
                 {projects.map((project, index) => (
-                    <div key={index} className='p-4 border border-purple-300'>
+                    <div key={index} className='p-4 border border-purple-300 rounded-lg'>
 
                         <h1 className="font-bold mb-2 text-2xl">{project.title}</h1>
                         <h2 className="font-bold underline mb-2">Proyecto {project.type}</h2>
@@ -50,7 +50,7 @@ export const Projects = () => {
 
             </div>
 
-            <div className='flex justify-center px-4 pb-4'>
+            <div className='flex justify-center px-4 pt-4'>
 
                 <a href="https://github.com/SerapioUnlucky?tab=repositories" className="border-b-2 border-transparent hover:border-purple-300 hover:text-purple-300 transition duration-300 font-bold py-2 px-4" target='_blank'>Ver mas repositorios</a>
 

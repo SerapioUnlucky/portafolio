@@ -14,13 +14,13 @@ export const home = {
     cv: cv,
     bio: 'Soy Ingeniero de Ejecución Informática egresado de la Universidad del Bío-Bío. Me apasiona el diseño y desarrollo de aplicaciones web, enfocándome tanto en su aspecto visual como en su funcionalidad interna. Durante mis estudios, he dedicado tiempo a explorar diversas tecnologías y enfoques para mejorar mis habilidades en este ámbito. Mi constante búsqueda de conocimiento me motiva a mantenerme al tanto de las últimas tendencias y herramientas en el campo del desarrollo web, con el fin de seguir creciendo profesionalmente.',
     location: 'Concepción, Chile',
-    locationIcon: <FaLocationArrow size={40} />,
+    locationIcon: <FaLocationArrow size={30} />,
     phone: '+56 930209398',
-    phoneIcon: <FaPhoneAlt size={40} />,
+    phoneIcon: <FaPhoneAlt size={30} />,
     email: 'sjerez957@gmail.com',
-    emailIcon: <MdEmail size={40} />,
+    emailIcon: <MdEmail size={30} />,
     github: 'https://github.com/SerapioUnlucky',
-    githubIcon: <FaGithub size={40} />,
+    githubIcon: <FaGithub size={30} />,
     linkedin: 'https://www.linkedin.com/in/sebastian-jerez/',
-    linkedinIcon: <FaLinkedin size={40} />
+    linkedinIcon: <FaLinkedin size={30} />
 }

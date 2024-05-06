@@ -8,7 +8,11 @@ export const Layout = () => {
 
             <Header />
 
-            <Outlet />
+            <main className="max-w-screen-lg mx-auto p-4">
+
+                <Outlet />
+
+            </main>
 
         </>
     )
