@@ -1,7 +1,7 @@
 export const experiences = [
     {
         company: "Dropillos",
-        position: "Desarrollador web",
+        position: "Desarrollador Full Stack",
         period: "Sep. 2023 - Ene. 2024",
         description: "Se desarrolló una plataforma web destinada a brindar soporte y gestión a la PYME Dropillos, esta herramienta facilita la generación de comandas y la gestión eficiente del inventario, entre otras funciones. Anteriormente, todas las operaciones se realizaban manualmente con papel y lápiz. Esta plataforma se desarrolló con el stack MERN (MongoDB, Express.js, React.js, Node.js) y Tailwind CSS para darle estilos y hacerlo responsivo."
     },
@@ -19,7 +19,7 @@ export const experiences = [
     },
     {
         company: "Noble Corral",
-        position: "Desarrollador web",
+        position: "Desarrollador Full Stack",
         period: "Ene. 2023 - Mar. 2023",
         description: "Se desarrolló una plataforma web para reportar información mediante reportes de Power BI, Excel o consultas de SQL, y gestionar usuarios. Esto requirió un backend para manejar la información y la seguridad, y un frontend para la interacción de los usuarios. Esta plataforma se desarrolló con las tecnologías de PHP, Composer, SQL Server, HTML, CSS y JavaScript."
     }

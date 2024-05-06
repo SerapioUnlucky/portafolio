@@ -14,7 +14,7 @@ export const Experiences = () => {
                         <div>
 
                             <h1 className="text-center lg:text-start text-xl">{experience.position}</h1>
-                            <h3 className="text-center lg:text-start font-semibold">{experience.company}</h3>
+                            <h3 className="text-center lg:text-start underline font-semibold">{experience.company}</h3>
 
                         </div>
 

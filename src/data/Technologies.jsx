@@ -15,7 +15,6 @@ import {
     SiNextdotjs,
     SiExpress,
     SiMongodb,
-    SiMysql,
     SiJavascript,
     SiPostgresql,
     SiInsomnia,
@@ -30,6 +29,7 @@ import {
     SiStyledcomponents,
     SiComposer
 } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
 
 export const frontend = [
     {
@@ -137,7 +137,7 @@ export const databases = [
         documentation: "https://www.mongodb.com/"
     },
     {
-        icon: <SiMysql size={40} />,
+        icon: <GrMysql size={40} />,
         name: "MySQL",
         documentation: "https://www.mysql.com/"
     },

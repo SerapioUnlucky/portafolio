@@ -6,7 +6,7 @@ export const Skills = () => {
 
     return (
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 justify-items-center gap-8">
 
             <div className="min-w-full">
 
@@ -17,7 +17,7 @@ export const Skills = () => {
                         <li key={index} className="py-1 border border-purple-300 rounded-lg min-w-full min-h-full">
                             <Tippy content="Ver documentación">
                                 <a href={frontend.documentation} className="flex flex-col items-center gap-1 hover:text-purple-300 transition duration-300" target="_blank">
-                                    {frontend.icon}{frontend.name}
+                                    {frontend.icon}<span className="text-sm">{frontend.name}</span>
                                 </a>
                             </Tippy>
                         </li>
@@ -35,7 +35,7 @@ export const Skills = () => {
                         <li key={index} className="py-1 border border-purple-300 rounded-lg min-w-full">
                             <Tippy content="Ver documentación">
                                 <a href={backend.documentation} className="flex flex-col items-center gap-1 hover:text-purple-300 transition duration-300" target="_blank">
-                                    {backend.icon}{backend.name}
+                                    {backend.icon}<span className="text-sm">{backend.name}</span>
                                 </a>
                             </Tippy>
                         </li>
@@ -53,7 +53,7 @@ export const Skills = () => {
                         <li key={index} className="py-1.5 border border-purple-300 rounded-lg min-w-full">
                             <Tippy content="Ver documentación">
                                 <a href={language.documentation} className="flex flex-col items-center gap-1 hover:text-purple-300 transition duration-300" target="_blank">
-                                    {language.icon}{language.name}
+                                    {language.icon}<span className="text-sm">{language.name}</span>
                                 </a>
                             </Tippy>
                         </li>
@@ -71,7 +71,7 @@ export const Skills = () => {
                         <li key={index} className="py-1 border border-purple-300 rounded-lg min-w-full">
                             <Tippy content="Ver documentación">
                                 <a href={database.documentation} className="flex flex-col items-center gap-1 hover:text-purple-300 transition duration-300" target="_blank">
-                                    {database.icon}{database.name}
+                                    {database.icon}<span className="text-sm">{database.name}</span>
                                 </a>
                             </Tippy>
                         </li>
@@ -89,7 +89,7 @@ export const Skills = () => {
                         <li key={index} className="py-1 border border-purple-300 rounded-lg min-w-full">
                             <Tippy content="Ver documentación">
                                 <a href={tool.documentation} className="flex flex-col items-center gap-1 hover:text-purple-300 transition duration-300" target="_blank">
-                                    {tool.icon}{tool.name}
+                                    {tool.icon}<span className="text-sm">{tool.name}</span>
                                 </a>
                             </Tippy>
                         </li>
