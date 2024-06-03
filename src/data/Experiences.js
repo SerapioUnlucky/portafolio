@@ -8,7 +8,7 @@ export const experiences = [
     {
         company: "Universidad del Bío-Bío",
         position: "Asistente de estudiantes",
-        period: "Sep. 2023 - Sep. 2024",
+        period: "Sep. 2023 - Ene. 2024",
         description: "Ayudantías en Ingeniería de Software para estudiantes de Ingeniería de Ejecución en Computación e Informática, donde desempeñé el rol de cliente de software y se les enseño el stack MERN (MongoDB, Express.js, React.js, Node.js) para el desarrollo."
     },
     {
